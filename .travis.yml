@@ -6,6 +6,7 @@ script:
 - npm run build
 deploy:
   provider: heroku
-  app: react-pipeline
+  app: react-
+  branch: main
   api_key:
     secure: $HEROKUSECRET
