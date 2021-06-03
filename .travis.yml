@@ -6,10 +6,8 @@ script:
 - npm run build
 deploy:
   provider: heroku
-  api_key:
-    secure: lesXyGIWUGw5c1iDyZmNBwstICTg/7C4T4tDy2VBdaQqfrNepXHrZz15EdeXgcSwxA3WLMHciOn/G0rv93PJEc1FQS+YoOjpvtNPrtfj+DG7in/4d7xaLqTLbqpFIz8ef8WeK3++kOfnGUw4+sYHb1QBfic8b11fSHsClnuC4nAQ0WrkR295fl7hFYQtHDJd0TOJFGVNCE0BbrtJUT3txPYDprMtoMgLYowG3+syxblFHCoJuiRLRaTR1J1UkGKigvsDRDXNayl1uST5U5kTExG/UYhGoOk4H4DD7wmGAG0d2x5C+dd7DBOt/LfxGEN2aV1nbz61LaF2hr+KV4/zQmr4aUV4pjCux4CtCv5cWNot4iP/LDUHoI4nMA2APRWdqHDbIvQ0dhpC7aLKf6b/j7D1cY58ieoO+hRjcOBvsNwDKZJLehgrMskdjWYvdoEQWn6RFo6jqZT+ipNAsjprKxCesN108GituPY4/iOtIk2Mezayk0n1T4qixHjqctdxzG5JaY56NBzGKwLdCuzc0FRbBn4A9KKVLoREivPRM5ZSYL1cj8q/UdzmitmHhdr3MoGM7fVP/B3bQhq/8CbKLfjMC4t3zIJfgOXMtcQEjT4hB0wtMRp8elX5o0Hfj7HuWJUj/9YljHUCR4OyDAN0wNP5O96tL3SoYkJwONJNE9I=
   app: react-pipeline
   on:
-    repo: matheusribeirog/react-pipeline
     branch: main
-  skip_cleanup: 'true'
+  api_key:
+    secure: 8b12d0b0-b3f3-4a36-aac7-de6136ee9d79
