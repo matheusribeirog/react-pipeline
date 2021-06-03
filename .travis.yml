@@ -10,4 +10,4 @@ deploy:
   on:
     branch: main
   api_key:
-    secure: ${{secret.HEROKUSECRET}}
+    secure: ${{ secret.HEROKUSECRET }}
