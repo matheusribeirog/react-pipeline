@@ -7,6 +7,7 @@ script:
 deploy:
   provider: heroku
   app: react-
-  branch: main
+  on:
+    branch: main
   api_key:
     secure: $HEROKUSECRET
